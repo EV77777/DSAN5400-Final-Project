@@ -38,7 +38,6 @@ project/
 └── architecture.drawio         # Diagram showing the architecture of the project
 
 ## 数据准备
-
 数据来源：
 金融新闻：通过 Reuters API、Bloomberg API。
 社交媒体：使用 Twitter API 和 Reddit API。
