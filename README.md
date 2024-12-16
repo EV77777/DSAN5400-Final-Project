@@ -20,24 +20,22 @@ Yubo Xing & Jiachen Gao: Modeling
 
 ## File Tree Structure
 
-project/
-│   ├── code/
-│   │   ├── fetch_reddit.py     # Script for fetching Reddit posts on TSLA
-│   │   ├── fetch_prices.py     # Script for fetching stock price data
-│   │   ├── clean_reddit.py     # Script for cleaning Reddit posts on TSLA
-│   │   └── clean_prices.py     # Script for cleaning stock price data
-│   ├── data/
-│   │   ├── TSLA_stock_data.csv # Raw TSLA stock price data
-│   │   ├── one-year-of-tsla-on-reddit-posts.csv              # Raw TSLA Reddit posts data
-│   │   ├── one-year-of-tsla-on-reddit-comments.csv           # Raw TSLA Reddit comments data (We don't use this dataset)
-│   │   ├── cleaned_TSLA_stock_data.csv                       # Cleaned TSLA stock price data
-│   │   └── cleaned_reddit_posts_fixed.csv                    # Cleaned TSLA Reddit posts data
-│   ├── utils/                  # Utility functions and helper scripts
-│   └── main.py                 # Main entry point for running the project
-├── tests/                      # Directory for unit tests
-├── pyproject.toml              # Project configuration file (modern Python packaging)
-├── README.md                   # Project documentation and instructions
-└── environment.yml             # Environment configuration file (dependencies and libraries)
+project//
+│   ├── code//
+│   │   ├── fetch_reddit.py     # Script for fetching Reddit posts on TSLA//
+│   │   ├── fetch_prices.py     # Script for fetching stock price data//
+│   │   ├── clean_reddit.py     # Script for cleaning Reddit posts on TSLA//
+│   │   └── clean_prices.py     # Script for cleaning stock price data//
+│   ├── data//
+│   │   ├── TSLA_stock_data.csv # Raw TSLA stock price data//
+│   │   ├── one-year-of-tsla-on-reddit-posts.csv              # Raw TSLA Reddit posts data//
+│   │   ├── one-year-of-tsla-on-reddit-comments.csv           # Raw TSLA Reddit comments data (We don't use this dataset)//
+│   │   ├── cleaned_TSLA_stock_data.csv                       # Cleaned TSLA stock price data//
+│   │   └── cleaned_reddit_posts_fixed.csv                    # Cleaned TSLA Reddit posts data//
+│   ├── utils/                  # Utility functions and helper scripts//
+│   └── main.py                 # Main entry point for running the project//
+├── README.md                   # Project documentation and instructions//
+└── environment.yml             # Environment configuration file (dependencies and libraries)//
 
 ## Data Preparation and Cleaning (Just script, not final presentation)
 
